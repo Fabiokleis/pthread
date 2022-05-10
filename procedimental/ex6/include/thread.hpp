@@ -32,7 +32,6 @@ void *tarefa(void *p) {
     }
     thread_ativa[id] = -1; // informa a thread principal que ja acabou o seu trabalho;
     sem_post(&meu_semaforo);
-    pthread_exit(0);
 }
 
 void monitorar() {

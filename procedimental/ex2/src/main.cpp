@@ -18,6 +18,8 @@ int main(void) {
     pthread_join(thread_1, NULL);
     pthread_join(thread_2, NULL);
 
+    cout << endl << "Pressione ENTER para continuar..."  << endl;
+
     cin.get();
     
     return 0;
