@@ -4,7 +4,8 @@
 #include <stdlib.h>
 using namespace std;
 
-#pragma once
+#ifndef THREAD_HPP_PHCIKGU5
+#define THREAD_HPP_PHCIKGU5
 class Thread {
     private:
         pthread_t _threadID;             // pthread - ponteiro;
@@ -21,3 +22,5 @@ class Thread {
         void join();                    // espera a thread acabar;
         void yield();                   // libera o processador;
 };
+
+#endif /* end of include guard: THREAD_HPP_PHCIKGU5 */
