@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(void) {
+    struct limite limite_1, limite_2;
     pthread_t thd1, thd2;
     pthread_mutex_init(&meu_mutex, NULL);      
     limite_1.baixo = 0;

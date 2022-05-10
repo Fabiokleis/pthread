@@ -7,7 +7,6 @@ struct limite {
     int alto;
 };
 
-struct limite limite_1, limite_2;
 
 pthread_t thread_1;
 pthread_t thread_2;
@@ -23,7 +22,7 @@ void *encontre_primos(void *param) {
     for (n = aux->baixo; n <= aux->alto; n++) {
         primo = 1;
         for (k = 2; k < n; k++) {
-            if (n % 2 == 0) {
+            if ((n % k) == 0) {
                 primo = 0;
                 break;
             }
