@@ -1,11 +1,12 @@
+#ifndef THREAD_HPP_PHCIKGU5
+#define THREAD_HPP_PHCIKGU5
+
 #include <iostream>
 #include <string>
 #include <pthread.h>                    // lib pthread;
 #include <stdlib.h>
 using namespace std;
 
-#ifndef THREAD_HPP_PHCIKGU5
-#define THREAD_HPP_PHCIKGU5
 class Thread {
     private:
         pthread_t _threadID;             // pthread - ponteiro;

@@ -1,4 +1,5 @@
 #include "corredor.hpp"
+#include "principal.hpp"
 
 Corredor::Corredor(const int voltas) {
     setVoltas(voltas);

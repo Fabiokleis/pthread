@@ -1,11 +1,11 @@
+#ifndef THREAD_HPP_OEVYVWT8
+#define THREAD_HPP_OEVYVWT8
+
 #include <iostream>
 #include <string>
 #include <pthread.h>                    // lib pthread;
 #include <stdlib.h>
 using namespace std;
-
-#ifndef THREAD_HPP_OEVYVWT8
-#define THREAD_HPP_OEVYVWT8
 
 class Thread {
     private:

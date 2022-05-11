@@ -1,7 +1,9 @@
+#ifndef MINHAT_HPP_QEYU7W4P
+#define MINHAT_HPP_QEYU7W4P
+
 #include "thread.hpp"
 
 // class derivda de thread;
-
 class MinhaT : public Thread {
     public:
         MinhaT() {}
@@ -13,3 +15,5 @@ class MinhaT : public Thread {
             }
         }
 };
+
+#endif /* end of include guard: MINHAT_HPP_QEYU7W4P */

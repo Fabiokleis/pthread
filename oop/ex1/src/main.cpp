@@ -12,7 +12,7 @@ int main(void) {
 
     cout << endl << "Oi! Eu sou a thread principal." << endl;
 
-    cout << "Precione ENTER para continuar..." << endl;
+    cout << "Pressione ENTER para continuar..." << endl;
     cin.get();
     delete t;
     return 0;

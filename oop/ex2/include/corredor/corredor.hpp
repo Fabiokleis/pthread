@@ -1,10 +1,9 @@
-#include <iostream>
-#include <string>
-#include "principal.hpp"
-#include "thread.hpp"
-
 #ifndef CORREDOR_HPP_J9EPIDZH
 #define CORREDOR_HPP_J9EPIDZH
+
+#include <iostream>
+#include <string>
+#include "thread.hpp"
 
 class Corredor : public Thread {
     private:

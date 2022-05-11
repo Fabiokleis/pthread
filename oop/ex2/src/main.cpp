@@ -6,14 +6,13 @@ int main() {
     cout << "Digite ENTER para iniciar e terminar a thread..." << endl;
     cin.get();
 
-    Principal *p = new Principal();
+    Principal p;
 
-    p->executar();
+    p.executar();
     cout << endl << "Oi! Eu sou a thread principal." << endl;
 
     cout << "Pressione ENTER para continuar..." << endl;
     cin.get();
 
-    delete p;
     return 0;
 }
